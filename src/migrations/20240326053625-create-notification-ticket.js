@@ -23,7 +23,8 @@ module.exports = {
       },
       satus: {
         type: Sequelize.ENUM,
-        values:['PENDING','SUCCESS',"FAILED"]
+        values:['PENDING','SUCCESS',"FAILED"],
+        defaultValue:"PENDING"
 
       },
       notificationTime: {
